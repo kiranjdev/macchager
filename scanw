@@ -1,5 +1,6 @@
 clear
 dealy1
+echo "You Are Hacked"
 figlet "NETWORK SCANNER"
 for i in {2..254}
 do
