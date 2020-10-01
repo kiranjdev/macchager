@@ -1,6 +1,7 @@
 clear
 dealy1
 figlet "NETWORK SCANNER"
+# loop for scanning ip ranges between 2 to 254 range.
 for i in {2..254}
 do
 ping -c 1 192.168.204.$i|grep "64 bytes from"|cut -d " " -f4 |cut -d ":" -f1 &
